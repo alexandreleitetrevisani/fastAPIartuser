@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     DB_URL: str = 'postgresql+asyncpg://geek:university@localhost:5432/faculdade'
     DBBaseModel = declarative_base()
 
-    JWT_SECRET: str = 'qS96E1oCfq5gEZH-ngD91NC2qkcl0cffhNTIDGpF4pw'
+    JWT_SECRET: str = '4zmcnc0dfc5lr61KpTqd0EjwDkiSy8xTz89ZJ6G8Xik'
     """
     import secrets
 
