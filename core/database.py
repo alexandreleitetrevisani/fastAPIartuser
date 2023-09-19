@@ -15,3 +15,7 @@ Session: AsyncSession = sessionmaker(
     class_=AsyncSession,
     bind=engine
 )
+
+# postgres na nuvem
+# user: postgres
+# senha: alibabaoi
